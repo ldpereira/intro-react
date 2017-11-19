@@ -1,0 +1,35 @@
+{
+  "name": "intro-react",
+  "version": "1.0.0",
+  "description": "Project of react with webpack",
+  "main": "index.js",
+  "repository": {
+    "url": "http://github.com/ldpereira/react-intro",
+    "type": "git"
+  },
+  "author": "Lucas Dalcol Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "postcss-loader": "^2.0.8",
+    "react-hot-loader": "next",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "browserlist": [
+    "> 2%",
+    "last 2 versions"
+  ],
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  }
+}
